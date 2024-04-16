@@ -1,9 +1,6 @@
-/* .main{
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 32px 15px 32px 15px;
-} */
-
+*{
+    box-sizing: border-box;
+}
 body{
     overflow: scroll;
     overflow-x: hidden;
@@ -34,6 +31,7 @@ nav{
     border: 1px solid gray;
     /* position: fixed; */
     background-color: white;
+    position:sticky;
 }
 nav ul{
     list-style-type: none;
@@ -87,10 +85,6 @@ nav li{
     display: flex;
     justify-content: center;
 }
-
-*{
-    box-sizing: border-box;
-}
 .item{
     border: 1px solid gray;
     height: 43rem;
@@ -125,9 +119,9 @@ button{
     font-size: 1.2rem;
     border-radius: 7px;
 }
-footer{
+.article-footer{
     display: flex;
-    justify-content:flex-end;
+    justify-content: space-between;
 }
 p, label, input, span,time, a{
     font-size: 1.3rem;
@@ -173,7 +167,6 @@ p, label, input, span,time, a{
     text-decoration: none;
     color: black;
 }
-
 h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -191,12 +184,9 @@ li{
     position: absolute;
     left: 0;
     right: 0;
-    /* bottom: 0; */
     font-family: Arial, Helvetica, sans-serif;
-    /* display: flex; */
     justify-content: space-around;
     height: 54%;
-    /* border-bottom: 1px solid black; */
 }
 .footer-content h2{
     color: black;
@@ -240,4 +230,9 @@ li{
 .bottom-footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+
 }
