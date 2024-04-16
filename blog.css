@@ -1,0 +1,243 @@
+/* .main{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 32px 15px 32px 15px;
+} */
+
+body{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.upper-container{
+    border: 1px solid gray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  
+}
+.top-container-note{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.AI-help{
+    text-decoration: none;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    /* position: fixed; */
+    background-color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+}
+.sign-up-btn{
+    background-color: black;
+    color: wheat;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 9rem;
+    height: 2em;
+}
+.search-button{
+    width: 5em;
+    height: 2.1em;
+    border-radius: 30px;
+    background-color: white;
+    color: blue;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+.item{
+    border: 1px solid gray;
+    height: 43rem;
+    width: 48%;
+    margin: 1%;
+    border-radius: 15px;
+    padding: 20px;
+}
+.figure{
+    height: 50%;
+    width: 70%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.description{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+button{
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+}
+footer{
+    display: flex;
+    justify-content:flex-end;
+}
+p, label, input, span,time, a{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    color: black;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 32px 15px 32px 15px;
+}
+.sign-up-button{
+    width: 100%;
+    height: 3rem;
+    font-size: 1.4rem;
+    border-radius: 7px;
+}
+.sign-up{
+    width: 50%;
+    margin: auto;
+
+}
+.sign-up-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+.email{
+    width: 100%;
+    height: 3rem;
+}
+.product{
+    margin: 15px;
+}
+.mdn-team{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 3.5rem;
+    background-color: rgb(248, 247, 247);
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex; */
+    justify-content: space-around;
+    height: 54%;
+    /* border-bottom: 1px solid black; */
+}
+.footer-content h2{
+    color: black;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content li{
+    margin-bottom: 16px;
+}
+.footer-content li a{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.footer-content p{
+    font-size: 16px;
+    line-height: 7px;
+    margin: 20px 0;
+}
+.footer-anchor{
+    text-decoration: none;
+}
+.footer-content .row1{
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    gap: 3em;
+    border-top: 1px solid gray;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    margin-left: 25px;
+}
+.footer-content .row2{
+    position: absolute;
+    bottom: 0;
+    line-height: 10px;
+    margin-left: 25px;
+}
+.bottom-footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
