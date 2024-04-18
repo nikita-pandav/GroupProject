@@ -188,7 +188,7 @@ li{
 }
 .footer-anchor{
  text-decoration: none;
- color: gray;
+ color: #333;
 }
 .page-footer-logo p {
    margin-top: 0;
@@ -221,6 +221,9 @@ li{
       flex-wrap: wrap;
      font-size: 1rem;
      gap: 1rem;
+}
+.bottom-footer{
+    color: #333;
 }
 
 li{
